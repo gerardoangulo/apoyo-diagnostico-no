@@ -1,0 +1,33 @@
+-  apoyo_diagnostico.p                 : Módulo principal
+-  estructura.txt                      : Este mismo archivo con el diseño del sistema
+-  grad_cam.py                         : Módulo Grad Cam
+-  historial.csv                       : Archivo donde se guardan los datos de los pacientes                       
+-  integrator.py                       : Módulo integrador 
+-  load_model.py                       : Módulo que carga el modelo entrenado
+-  modelo_entrenado.h5                 : Modelo entrenado
+-  preprocess_img.py                   : Módulo que preprocesa la imagen
+-  README.md                           : Explica los principales detalles del sistema
+-  read_img.py                         : Módulo que carga la imagen
+-  requirements.txt                    : Lista de requerimientos del proyecto
+-  test-DICOM.dcm                      : Archivo DICOM de prueba
+-  Test-JPG.jpg                        : Imagen JPG de prueba
+
++---sample-images                      : Carpeta con imagenes de prueba DICOM y JPG
+   +---DICOM                           : Carpeta con imagenes de prueba DICOM
+          normal9733.dcm               : imagen de prueba DICOM
+          normal9983.dcm               : imagen de prueba DICOM
+          viral8882.dcm                : imagen de prueba DICOM
+          viral9531.dcm                : imagen de prueba DICOM
+        
+  +---JPG                              : Carpeta con imagenes de prueba JPG
+           00009234_000.jpg            : imagen de prueba JPG
+           00009247_001.jpg            : imagen de prueba JPG
+           person23_bacteria_93.jpeg   : imagen de prueba JPG
+           person37_bacteria_189.jpeg  : imagen de prueba JPG
+           
++---tests
+      test_load_model.py               : Pruebas para el módulo que carga el modelo
+      test_preprocess_img.py           : Pruebas para el módulo que preprocesa la imagen
+      test_read_img.py                 : Pruebas para el módulo que carga la imagen
+
+       
